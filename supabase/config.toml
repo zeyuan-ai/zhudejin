@@ -1,0 +1,19 @@
+project_id = "zhudejin"
+
+[functions.validate-invite]
+verify_jwt = false
+
+[functions.search-listings]
+verify_jwt = false
+
+[functions.submit-feedback]
+verify_jwt = false
+
+[functions.admin-listings]
+verify_jwt = true
+
+[functions.admin-invites]
+verify_jwt = true
+
+[functions.route-audit]
+verify_jwt = false
